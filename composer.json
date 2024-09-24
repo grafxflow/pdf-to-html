@@ -11,7 +11,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^8.2",
-        "paquettg/php-html-parser": "^3.1.1",
+        "paquettg/php-html-parser": "2.2",
         "illuminate/config" : "^11.24"
     },
     "autoload": {
