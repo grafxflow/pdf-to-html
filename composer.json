@@ -10,14 +10,10 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "paquettg/php-html-parser": "~1",
-        "illuminate/config": "~5"
+        "php": "^8.2",
+        "paquettg/php-html-parser": "^3.1.1",
+        "illuminate/config": "^11.24"
     },
-    "require-dev":{
-        "phpunit/phpunit":"~4",
-        "satooshi/php-coveralls": "^1.0"
-    },
-
     "autoload": {
         "psr-0": {
             "Gufy": "src"
@@ -25,5 +21,9 @@
         "psr-4": {
             "Gufy\\PdfToHtml\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3.6",
+        "satooshi/php-coveralls": "^1.0.1"
     }
 }
